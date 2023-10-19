@@ -9,7 +9,7 @@ Emanuel Castanho (AIR Centre)
 
 <hr>
 
-### Setup on Docker:
+### Setup on Docker (recommended):
 1- Download Docker based on your operating system [here](https://www.docker.com/get-started/);
 
 2- After installation using the recommended settings, start Docker without signing in and fill some information;
@@ -29,6 +29,21 @@ Emanuel Castanho (AIR Centre)
 7- Download *data.zip* from [here](https://drive.google.com/drive/folders/1nd9JHQhgqmZi98GicBAgNLFDESFjtq0Z?usp=sharing), unzip it and replace inside *fpcup\_africa\_marine-debris-main*;
 
 8- You are ready to run the notebook *fpcup\_africa\_marine-debris.ipynb*
+
+### Setup on Conda (optional):
+5- If you do not want to use Docker, try Miniconda. After step 4, open a terminal window inside the folder *fpcup\_africa\_marine-debris-main* and run the following commands:
+
+`conda create -n fpcup_africa_marine-debris-env python=3.9`
+
+`conda activate fpcup_africa_marine-debris-env`
+
+`conda install -c conda-forge gdal=3.7.2`
+
+`pip install notebook==7.0.6 localtileserver==0.7.2 geopandas==0.14.0 leafmap==0.27.0 scikit-learn==1.1.1 pyarrow==13.0.0`
+
+6- On the same terminal window, run `jupyter notebook` to start.
+
+
 
 
 
