@@ -9,6 +9,10 @@ Emanuel Castanho (AIR Centre)
 
 <hr>
 
+### Preview:
+
+![preview](imgs/preview.png)
+
 ### Setup on Docker (recommended):
 1- Download Docker based on your operating system [here](https://www.docker.com/get-started/);
 
