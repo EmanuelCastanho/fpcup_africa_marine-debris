@@ -3,7 +3,7 @@
 # Training: 
 # Detecting plastic pollution and events of marine debris pollution using Sentinel -2
 
-Emanuel Castanho (AIR Centre)
+Emanuel Castanho and Andrea Giusti (AIR Centre)
 
 25 OCTOBER 2023
 
